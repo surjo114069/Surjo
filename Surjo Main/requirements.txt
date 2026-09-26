@@ -1,2 +1,0 @@
-python-telegram-bot==21.6
-pymango==4.10.1
