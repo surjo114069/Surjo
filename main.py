@@ -5,8 +5,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from pymongo import MongoClient
 
 # ================== CONFIG ==================
-BOT_TOKEN = os.getenv("8791982874:AAHVgEFLa8Ni86B6aJPztiG3UoLSONzzlZk")
-MONGO_URI = os.getenv("mongodb://<db_username>:R0mkj4IRfFuO34yO@ac-tragtmd-shard-00-00.bvojpfb.mongodb.net:27017,ac-tragtmd-shard-00-01.bvojpfb.mongodb.net:27017,ac-tragtmd-shard-00-02.bvojpfb.mongodb.net:27017/?ssl=true&replicaSet=atlas-xhpy7x-shard-0&authSource=admin&appName=Cluster0")
+BOT_TOKEN = os.getenv(":AAHVgEFLa8Ni86B6aJPztiG3UoLSONzzlZk")
+MONGO_URI = os.getenv(":R0mkj4IRfFuO34yO@ac-tragtmd-shard-00-00.bvojpfb.mongodb.net:27017,ac-tragtmd-shard-00-01.bvojpfb.mongodb.net:27017,ac-tragtmd-shard-00-02.bvojpfb.mongodb.net:27017/?ssl=true&replicaSet=atlas-xhpy7x-shard-0&authSource=admin&appName=Cluster0")
 # ============================================
 
 client = MongoClient(MONGO_URI)
